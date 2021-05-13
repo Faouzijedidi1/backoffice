@@ -1,0 +1,27 @@
+{
+    "name": "etnos/backoffice",
+    "version": "1.0.0",
+    "description": "Outdare backoffice package",
+    "authors": [
+        {
+            "name": "Outdare Development Team",
+            "email": "hello@etnos.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*|5.*"
+    },
+    "repositories": [
+    ],
+    "autoload": {
+        "classmap": [
+            "src/lang"
+        ],
+        "psr-0": {
+            "Outdare\\Backoffice\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
